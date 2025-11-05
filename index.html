@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李玥儿</title>
+    <link rel="stylesheet" href="./font_zkj9svxh9xp/iconfont.css">
+    <style>
+        *{
+            list-style: none;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            padding: 0px;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+        .yijihezi{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .yijiliebiao>li{
+            width: 110px;
+            height: 40px;
+            background-color: #ff9260;
+            margin: 5px 0px;
+            border-radius: 8px;
+            
+            
+        }
+        .erjihezi{
+            background-color: rgb(255, 213, 142);
+            width: 550px;
+            position: relative;
+            left: 120px;
+            top: -40px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* display: none; */
+        }
+        .erjiliebiao{
+            display: flex;
+            flex-direction: row;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin: 0px;
+        }
+        .yijiliebiao>li:hover>.erjihezi{
+            display: block; 
+        }
+        .iconfont{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="yijihezi">
+        <ul class="yijiliebiao">
+            <li>
+                <a href="">喝点什么</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="" class="iconfont icon-natiecai">暖姜花茶拿铁</a></li>
+                        <li><a href="" class="iconfont icon-tubiaoku-">玫瑰荔枝气泡水</a></li>
+                        <li><a href="" class="iconfont icon-chengzhi">橙汁</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">饭要吃好</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="">蛋包饭</a></li>
+                        <li><a href="">猪排饭</a></li>
+                        <li><a href="">盖饭</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">来点小食</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="">薯条</a></li>
+                        <li><a href="">炸鸡</a></li>
+                        <li><a href="">鸡块</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
